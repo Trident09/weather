@@ -1,7 +1,7 @@
-import "./App.css";
 import TopButtons from "./components/TopButtons";
 import Inputs from "./components/Inputs";
 import TimeLocation from "./components/TimeLocation";
+import TemperatureDetails from "./components/TemperatureDetails";
 
 function App() {
 	return (
@@ -10,6 +10,7 @@ function App() {
       <Inputs />
       
       <TimeLocation />
+      <TemperatureDetails />
     </div>
 	);
 }
